@@ -57,11 +57,17 @@ pip install -r requirements.txt
 
 ---
 
+Aquí tienes la sección modificada con la opción **`-p`** para cambiar la contraseña:
+
+---
+
 ### **3. Ejecutar el Servidor Web con `montarpagina.py`**
 
 Este script monta una página web básica que será atacada por el **`bruteforce.py`**.
 
-Para ejecutar el servidor:
+#### **Ejecutar el servidor con la contraseña predeterminada:**
+
+Para ejecutar el servidor con la contraseña predeterminada (sin cambios), simplemente usa el siguiente comando:
 
 ```bash
 python montarpagina.py
@@ -69,7 +75,17 @@ python montarpagina.py
 
 El script generará una página web simulada que estará disponible en **`http://localhost:8080/`** (por defecto). Asegúrate de que el servidor esté corriendo antes de ejecutar el ataque de fuerza bruta.
 
----
+#### **Ejecutar el servidor y cambiar la contraseña:**
+
+Si deseas establecer una contraseña personalizada para la página web, puedes hacerlo utilizando el parámetro **`-p`** seguido de la nueva contraseña que deseas usar. Por ejemplo, para cambiar la contraseña a **"nueva_contraseña"**, ejecuta:
+
+```bash
+python montarpagina.py -p nueva_contraseña
+```
+
+Esto generará una página web en **`http://localhost:8080/`** con la nueva contraseña que has configurado. Recuerda que el ataque de fuerza bruta deberá ser dirigido a esta contraseña si decides cambiarla.
+
+De esta forma, ahora puedes modificar la contraseña de la página web antes de ejecutar el ataque de fuerza bruta.
 
 ### **4. Configuración y Ejecución del Ataque de Fuerza Bruta con `bruteforce.py`**
 
