@@ -1,8 +1,9 @@
 # fuerzabrutasimuladortermux
 Un simulador de ataque de Fuerza bruta en un entorno controlado para termux creado en python uso exclusivamente para the termux sindicate
 
-
+---
 ## **Instrucciones de Uso de la Herramienta Fuerza Bruta Simulador en Termux**
+---
 
 ### Requisitos Previos:
 - **Termux instalado** en tu dispositivo Android.
@@ -86,6 +87,8 @@ python montarpagina.py -p nueva_contraseña
 Esto generará una página web en **`http://localhost:8080/`** con la nueva contraseña que has configurado. Recuerda que el ataque de fuerza bruta deberá ser dirigido a esta contraseña si decides cambiarla.
 
 De esta forma, ahora puedes modificar la contraseña de la página web antes de ejecutar el ataque de fuerza bruta.
+
+---
 
 ### **4. Configuración y Ejecución del Ataque de Fuerza Bruta con `bruteforce.py`**
 
