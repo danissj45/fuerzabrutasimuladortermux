@@ -88,6 +88,13 @@ Esto generará una página web en **`http://localhost:8080/`** con la nueva cont
 
 De esta forma, ahora puedes modificar la contraseña de la página web antes de ejecutar el ataque de fuerza bruta.
 
+Luego ejecuta:
+
+```bash
+python montarpagina.py
+```
+Y listo ya esta corriendo tu pagina web.
+
 ---
 
 ### **4. Configuración y Ejecución del Ataque de Fuerza Bruta con `bruteforce.py`**
