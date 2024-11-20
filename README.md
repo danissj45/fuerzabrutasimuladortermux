@@ -148,6 +148,12 @@ El script intentará diferentes combinaciones de contraseñas hasta que encuentr
 - **Precauciones de Seguridad**: Asegúrate de usar esta herramienta en un entorno controlado y de no vulnerar ninguna ley local.
 
 ---
+Captura de pantalla
+---
+
+![Logo de Fuerza Bruta Simulador](20241119_221757.jpg)
+
+---
 
 ### **Enlaces Útiles:**
 
